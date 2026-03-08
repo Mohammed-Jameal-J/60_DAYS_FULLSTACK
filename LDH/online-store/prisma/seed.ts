@@ -13,7 +13,7 @@ const prisma = new PrismaClient({
 async function main() {
   await prisma.healthCheck.create({
     data: {
-      message: "Hello, World!",
+      message: "Hello, World im prishma!",
     },
   });
 }
